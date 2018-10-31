@@ -1,0 +1,17 @@
+package br.com.excript;
+import java.util.Scanner;
+public class Qst7 {
+	public static Scanner s = new Scanner (System.in);
+    public static void main (String[] args ) {
+    	
+    	System.out.print("Informe o tamanho em metros: ");
+    	
+    	double m = s.nextDouble();
+    	double cm;
+    	
+    	cm = m*100;
+    	
+    	System.out.print("Tamanho em centimentros: "+cm);
+      	
+    	   }
+}
