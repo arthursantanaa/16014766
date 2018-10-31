@@ -1,0 +1,18 @@
+package br.com.excript;
+import java.util.Scanner;
+public class Qst8 {
+	public static Scanner s = new Scanner (System.in);
+    public static void main (String[] args ) {
+    	
+    	
+    	System.out.print("Quanto voce ganhar por hora? ");
+		double R = s.nextDouble();
+	    System.out.print("Quantas horas trabalhou tal mês? ");
+	    int H = s.nextInt();
+	    
+		double S = R*H ;
+		
+		System.out.println("Seu salário este mês foi: "+S);
+    }
+	
+}
