@@ -12,3 +12,5 @@ public class Qst1 {
 		
 		System.out.println("NOME: "+N);
 		System.out.print("IDADE: "+N1	);
+  }
+}
