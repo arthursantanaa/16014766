@@ -1,0 +1,14 @@
+package br.com.excript;
+import java.util.Scanner;
+public class Qst1 {
+	public static Scanner s = new Scanner (System.in);
+	public static void main (String[] args) {
+		
+		System.out.print("Informe seu nome: ");
+		String N = s.nextLine();
+		
+		System.out.print("Informe sua idade: ");
+		int N1 = s.nextInt();
+		
+		System.out.println("NOME: "+N);
+		System.out.print("IDADE: "+N1	);
