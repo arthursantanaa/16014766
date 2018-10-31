@@ -1,0 +1,20 @@
+package br.com.excript;
+import java.util.Scanner;
+public class Qst4 {
+	public static Scanner s = new Scanner (System.in);
+    public static void main (String[] args ) {
+    	
+    	System.out.println("Informe um número: ");
+    	double N = s.nextDouble();
+    	
+    	double Q;
+    	
+    	Q = Math.pow(N,2);
+    	
+    	
+    	
+    	System.out.println("NÚMERO: "+N);
+    	System.out.println("QUADRADO: "+Q);
+    		   
+      	    }
+    }
