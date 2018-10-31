@@ -1,0 +1,32 @@
+package br.com.excript;
+import java.util.Scanner;
+public class Qst11 {
+	public static Scanner s = new Scanner (System.in);
+    public static void main (String[] args ) {
+
+    	
+    	System.out.print("Informe o tempo de duração do evento. (Segundos): ");
+    	
+    	int S = s.nextInt();
+    	int S1 ;
+    	
+    	S1 = S%60 ;
+    	
+    	S/=60;
+    	
+    	int H;
+    	
+    	int M;
+    	
+    	M=S%60;
+    	
+    	S/=60;
+    	
+    	H=S%24;
+    	
+    	System.out.println(H+"Horas "+M+"Minutos "+S1+" Segundos");
+     
+     
+     }
+      }
+      
